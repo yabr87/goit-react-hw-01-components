@@ -36,3 +36,7 @@ Statistics.propTypes = {
     })
   ),
 };
+
+Statistics.defaultProps = {
+  stats: [],
+};

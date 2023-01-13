@@ -27,3 +27,7 @@ FriendList.propTypes = {
     })
   ),
 };
+
+FriendList.defaultProps = {
+  friends: [],
+};

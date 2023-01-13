@@ -35,3 +35,7 @@ TransactionHistory.propTypes = {
     })
   ),
 };
+
+TransactionHistory.defaultProps = {
+  items: [],
+};
