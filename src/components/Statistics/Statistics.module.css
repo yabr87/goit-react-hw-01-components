@@ -1,0 +1,30 @@
+.title {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.stat_list {
+  display: flex;
+  background-color: silver;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  color: white;
+  line-height: 150%;
+}
+
+/* .label {
+}
+.percentage {
+} */
+.statistics {
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}

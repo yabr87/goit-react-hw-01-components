@@ -22,6 +22,28 @@ const isOnline = false;
 {'' ?? 3}// '' - пустраий стріннг
 ```
 
+```
+файл для абсолютних шляхів jsconfig.json
+
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+
+наприклад: import { App } from 'components/App';
+
+```
+
+```
+прибираемо помилку реакта
+файл   .env
+
+SKIP_PREFLIGHT_CHECK=true
+
+```
+
 ```js
 import PropTypes from 'prop-types';
 import Painting from './Painting';
